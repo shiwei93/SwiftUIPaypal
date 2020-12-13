@@ -19,9 +19,9 @@
 		89531BB4258266C5009BE628 /* SwiftUIPaypelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPaypelApp.swift; sourceTree = "<group>"; };
 		89531BB5258266C5009BE628 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89531BB6258266C6009BE628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		89531BBB258266C6009BE628 /* SwiftUIPaypel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPaypel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89531BBB258266C6009BE628 /* SwiftUIPaypal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPaypal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89531BBE258266C6009BE628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89531BC3258266C6009BE628 /* SwiftUIPaypel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPaypel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89531BC3258266C6009BE628 /* SwiftUIPaypal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPaypal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89531BC5258266C6009BE628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89531BC6258266C6009BE628 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,8 +67,8 @@
 		89531BBC258266C6009BE628 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89531BBB258266C6009BE628 /* SwiftUIPaypel.app */,
-				89531BC3258266C6009BE628 /* SwiftUIPaypel.app */,
+				89531BBB258266C6009BE628 /* SwiftUIPaypal.app */,
+				89531BC3258266C6009BE628 /* SwiftUIPaypal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89531BBA258266C6009BE628 /* SwiftUIPaypel (iOS) */ = {
+		89531BBA258266C6009BE628 /* SwiftUIPaypal (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89531BCF258266C6009BE628 /* Build configuration list for PBXNativeTarget "SwiftUIPaypel (iOS)" */;
+			buildConfigurationList = 89531BCF258266C6009BE628 /* Build configuration list for PBXNativeTarget "SwiftUIPaypal (iOS)" */;
 			buildPhases = (
 				89531BB7258266C6009BE628 /* Sources */,
 				89531BB8258266C6009BE628 /* Frameworks */,
@@ -105,14 +105,14 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUIPaypel (iOS)";
+			name = "SwiftUIPaypal (iOS)";
 			productName = "SwiftUIPaypel (iOS)";
-			productReference = 89531BBB258266C6009BE628 /* SwiftUIPaypel.app */;
+			productReference = 89531BBB258266C6009BE628 /* SwiftUIPaypal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		89531BC2258266C6009BE628 /* SwiftUIPaypel (macOS) */ = {
+		89531BC2258266C6009BE628 /* SwiftUIPaypal (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89531BD2258266C6009BE628 /* Build configuration list for PBXNativeTarget "SwiftUIPaypel (macOS)" */;
+			buildConfigurationList = 89531BD2258266C6009BE628 /* Build configuration list for PBXNativeTarget "SwiftUIPaypal (macOS)" */;
 			buildPhases = (
 				89531BBF258266C6009BE628 /* Sources */,
 				89531BC0258266C6009BE628 /* Frameworks */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = "SwiftUIPaypel (macOS)";
+			name = "SwiftUIPaypal (macOS)";
 			productName = "SwiftUIPaypel (macOS)";
-			productReference = 89531BC3258266C6009BE628 /* SwiftUIPaypel.app */;
+			productReference = 89531BC3258266C6009BE628 /* SwiftUIPaypal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +144,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89531BB2258266C5009BE628 /* Build configuration list for PBXProject "SwiftUIPaypel" */;
+			buildConfigurationList = 89531BB2258266C5009BE628 /* Build configuration list for PBXProject "SwiftUIPaypal" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,8 +157,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89531BBA258266C6009BE628 /* SwiftUIPaypel (iOS) */,
-				89531BC2258266C6009BE628 /* SwiftUIPaypel (macOS) */,
+				89531BBA258266C6009BE628 /* SwiftUIPaypal (iOS) */,
+				89531BC2258266C6009BE628 /* SwiftUIPaypal (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -329,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shiwei93.SwiftUIPaypel;
-				PRODUCT_NAME = SwiftUIPaypel;
+				PRODUCT_NAME = SwiftUIPaypal;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,7 +350,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shiwei93.SwiftUIPaypel;
-				PRODUCT_NAME = SwiftUIPaypel;
+				PRODUCT_NAME = SwiftUIPaypal;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -374,7 +374,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shiwei93.SwiftUIPaypel;
-				PRODUCT_NAME = SwiftUIPaypel;
+				PRODUCT_NAME = SwiftUIPaypal;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -396,7 +396,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shiwei93.SwiftUIPaypel;
-				PRODUCT_NAME = SwiftUIPaypel;
+				PRODUCT_NAME = SwiftUIPaypal;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -405,7 +405,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89531BB2258266C5009BE628 /* Build configuration list for PBXProject "SwiftUIPaypel" */ = {
+		89531BB2258266C5009BE628 /* Build configuration list for PBXProject "SwiftUIPaypal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89531BCD258266C6009BE628 /* Debug */,
@@ -414,7 +414,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89531BCF258266C6009BE628 /* Build configuration list for PBXNativeTarget "SwiftUIPaypel (iOS)" */ = {
+		89531BCF258266C6009BE628 /* Build configuration list for PBXNativeTarget "SwiftUIPaypal (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89531BD0258266C6009BE628 /* Debug */,
@@ -423,7 +423,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89531BD2258266C6009BE628 /* Build configuration list for PBXNativeTarget "SwiftUIPaypel (macOS)" */ = {
+		89531BD2258266C6009BE628 /* Build configuration list for PBXNativeTarget "SwiftUIPaypal (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89531BD3258266C6009BE628 /* Debug */,

@@ -11,6 +11,15 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             Text("Hello world")
+                .toolbar {
+                    ToolbarItem(placement: .principal) {
+                        HStack {
+                            Image(systemName: "sun.min.fill")
+                            Text("Title")
+                                .font(.headline)
+                        }
+                    }
+                }
                 .navigationBarItems(
                     leading: Button("11", action: {
 
